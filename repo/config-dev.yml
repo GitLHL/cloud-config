@@ -1,11 +1,4 @@
-server:
-  port: 9009
-
-spring:
-  cloud:
-    config:
-      uri: http://localhost:8888 #配置中心的地址
-      profile: dev 
-      label: master
-  application:
-    name: cloud-config # 当前微服务的名称
+demo-config-profile-env=dev
+zuowenjun.site=http://www.zuowenjun.cn,http://zuowj.cnblogs.com,http://github.com/zuowj
+zuowenjun.skills=.net,java,html,js,css,sql,python,vb
+zuowenjun.motto=Learning is endless; Opportunity is for the prepared mind;学无止境；机会是留给有准备的人

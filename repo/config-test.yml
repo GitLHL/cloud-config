@@ -1,11 +1,4 @@
-server:
-  port: 9008
-
-spring:
-  cloud:
-    config:
-      uri: http://192.168.10.10:8888 #配置中心的地址
-      profile: test 
-      label: master
-  application:
-    name: cloud-config # 当前微服务的名称
+demo-config-profile-env=test
+zuowenjun.site=http://www.zuowenjun.cn,http://zuowj.cnblogs.com--20190226.AAAXX66
+zuowenjun.skills=.net,java,html,js,css,sql,python,vb--20190226.BBBXX66
+zuowenjun.motto=Learning is endless; Opportunity is for the prepared mind;--20190226.CCCXX1
