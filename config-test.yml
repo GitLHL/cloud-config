@@ -1,0 +1,11 @@
+server:
+  port: 9008
+
+spring:
+  cloud:
+    config:
+      uri: http://192.168.10.10:8888 #配置中心的地址
+      profile: test 
+      label: master
+  application:
+    name: cloud-config # 当前微服务的名称
